@@ -11,9 +11,6 @@ class SovendusBannerData
     public function __construct(Bestellung $oBestellung)
     {
         $smarty = Shop::Smarty();
-        // TODO multi language countries
-        // $language = Shop::Lang();
-        // echo(json_encode($language));
         $configService = new ConfigService();
 
         list(
@@ -31,8 +28,9 @@ class SovendusBannerData
                 array(
                     'consumerPhone' => $sovendusConsumerPhone,
                     'pluginVersion' => $configService->getPluginVersion(),
-                    'trafficSourceNumber' => $sovendusTrafficSourceNumber,
-                    'trafficMediumNumber' => $sovendusTrafficMediumNumber,
+                    'enabled' => json_encode($sovendusEnabled),
+                    'trafficSourceNumber' => json_encode($sovendusTrafficSourceNumber),
+                    'trafficMediumNumber' => json_encode($sovendusTrafficMediumNumber),
                     'netOrdervalue' => $netOrdervalue,
                     'orderCurrency' => $orderCurrency,
                     'orderData' => $oBestellung,
