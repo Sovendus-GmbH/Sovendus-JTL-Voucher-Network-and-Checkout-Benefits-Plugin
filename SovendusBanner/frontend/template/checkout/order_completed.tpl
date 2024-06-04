@@ -7,10 +7,10 @@
       let trafficMediumNumber = "";
       const multiLangCountries = ["CH", "BE"]
       if (multiLangCountries.includes("{$sovendusBannerData.land}")){
-      const lang = document.documentElement.lang.split("-")[0];
-      isActive = JSON.parse('{$sovendusBannerData.enabled}')[lang];
-      trafficSourceNumber = JSON.parse('{$sovendusBannerData.trafficSourceNumber}')[lang];
-      trafficMediumNumber = JSON.parse('{$sovendusBannerData.trafficMediumNumber}')[lang];
+        const lang = document.documentElement.lang.split("-")[0];
+        isActive = JSON.parse('{$sovendusBannerData.enabled}')[lang];
+        trafficSourceNumber = JSON.parse('{$sovendusBannerData.trafficSourceNumber}')[lang];
+        trafficMediumNumber = JSON.parse('{$sovendusBannerData.trafficMediumNumber}')[lang];
       }
       else {
         trafficSourceNumber = {$sovendusBannerData.trafficSourceNumber};
@@ -50,7 +50,7 @@
           window.location.protocol +
           "//api.sovendus.com/sovabo/common/js/flexibleIframe.js";
         script.setAttribute('data-usercentrics', 'Sovendus');
-        document.body.appendChild(script);
+        document.head.appendChild(script);
       };
     </script>
   {/if}

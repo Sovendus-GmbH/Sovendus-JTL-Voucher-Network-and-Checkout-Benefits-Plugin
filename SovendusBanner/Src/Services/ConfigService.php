@@ -51,15 +51,18 @@ class ConfigService
             case "CH":
                 $sovendusTrafficSourceNumber = array(
                     "de" => $this->config->getValue("ch_de_sovendus_traffic_source_number"),
-                    "fr" => $this->config->getValue("ch_fr_sovendus_traffic_source_number")
+                    "fr" => $this->config->getValue("ch_fr_sovendus_traffic_source_number"),
+                    "it" => $this->config->getValue("ch_it_sovendus_traffic_source_number"),
                 );
                 $sovendusTrafficMediumNumber = array(
                     "de" => $this->config->getValue("ch_de_sovendus_traffic_medium_number"),
-                    "fr" => $this->config->getValue("ch_fr_sovendus_traffic_medium_number")
+                    "fr" => $this->config->getValue("ch_fr_sovendus_traffic_medium_number"),
+                    "it" => $this->config->getValue("ch_it_sovendus_traffic_medium_number"),
                 );
                 $sovendusEnabled = array(
                     "de" => $this->config->getValue("ch_de_sovendus_enabled") === "1",
-                    "fr" => $this->config->getValue("ch_fr_sovendus_enabled") === "1"
+                    "fr" => $this->config->getValue("ch_fr_sovendus_enabled") === "1",
+                    "it" => $this->config->getValue("ch_it_sovendus_enabled") === "1",
                 );
                 break;
             case "FR":
@@ -115,6 +118,11 @@ class ConfigService
                 $sovendusTrafficSourceNumber = $this->config->getValue("pl_sovendus_traffic_source_number");
                 $sovendusTrafficMediumNumber = $this->config->getValue("pl_sovendus_traffic_medium_number");
                 $sovendusEnabled = $this->config->getValue("pl_sovendus_enabled") === "1" && $sovendusTrafficSourceNumber && $sovendusTrafficMediumNumber;
+                break;
+            case "NO":
+                $sovendusTrafficSourceNumber = $this->config->getValue("no_sovendus_traffic_source_number");
+                $sovendusTrafficMediumNumber = $this->config->getValue("no_sovendus_traffic_medium_number");
+                $sovendusEnabled = $this->config->getValue("no_sovendus_enabled") === "1" && $sovendusTrafficSourceNumber && $sovendusTrafficMediumNumber;
                 break;
             default:
                 break;

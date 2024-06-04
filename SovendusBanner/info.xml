@@ -7,32 +7,10 @@
 	<PluginID>SovendusBanner</PluginID>
 	<XMLVersion>100</XMLVersion>
 	<ShopVersion>5.0.0</ShopVersion>
-	<Version>1.1.0</Version>
+	<Version>1.1.1</Version>
 	<CreateDate>2024-01-18</CreateDate>
 	<Install>
 		<Adminmenu>
-			<Settingslink sort="1">
-				<Name>Germany Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Germany</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>de_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>de_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>de_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
 			<Settingslink sort="2">
 				<Name>Austria Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
@@ -55,34 +33,12 @@
 					<ValueName>at_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
-			<Settingslink sort="3">
-				<Name>Netherland Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Netherland</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>nl_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>nl_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>nl_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
 			<Settingslink sort="4">
-				<Name>Switzerland German Sovendus Settings</Name>
+				<Name>Belgium Dutch Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Switzerland German</Name>
+					<Name>Enable Sovendus Belgium Dutch</Name>
 					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>ch_de_sovendus_enabled</ValueName>
+					<ValueName>be_nl_sovendus_enabled</ValueName>
 					<RadioOptions>
 						<Option value="0" sort="1">Disabled</Option>
 						<Option value="1" sort="2">Enabled</Option>
@@ -91,64 +47,20 @@
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Source Number</Name>
 					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>ch_de_sovendus_traffic_source_number</ValueName>
+					<ValueName>be_nl_sovendus_traffic_source_number</ValueName>
 				</Setting>
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Medium Number</Name>
 					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>ch_de_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="4">
-				<Name>Switzerland French Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Switzerland French</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>ch_fr_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>ch_fr_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>ch_fr_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="5">
-				<Name>France Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus France</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>fr_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>fr_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>fr_sovendus_traffic_medium_number</ValueName>
+					<ValueName>be_nl_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
 			<Settingslink sort="6">
-				<Name>Italy Sovendus Settings</Name>
+				<Name>Belgium French Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Italy</Name>
+					<Name>Enable Sovendus Belgium French</Name>
 					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>it_sovendus_enabled</ValueName>
+					<ValueName>be_fr_sovendus_enabled</ValueName>
 					<RadioOptions>
 						<Option value="0" sort="1">Disabled</Option>
 						<Option value="1" sort="2">Enabled</Option>
@@ -157,59 +69,15 @@
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Source Number</Name>
 					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>it_sovendus_traffic_source_number</ValueName>
+					<ValueName>be_fr_sovendus_traffic_source_number</ValueName>
 				</Setting>
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Medium Number</Name>
 					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>it_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="7">
-				<Name>Ireland Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Ireland</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>ie_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>ie_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>ie_sovendus_traffic_medium_number</ValueName>
+					<ValueName>be_fr_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
 			<Settingslink sort="8">
-				<Name>United Kingdom Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus United Kingdom</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>uk_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>uk_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>uk_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="9">
 				<Name>Denmark Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
 					<Name>Enable Sovendus Denmark</Name>
@@ -232,6 +100,160 @@
 				</Setting>
 			</Settingslink>
 			<Settingslink sort="10">
+				<Name>France Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus France</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>fr_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>fr_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>fr_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="12">
+				<Name>Germany Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Germany</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>de_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>de_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>de_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="14">
+				<Name>Ireland Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Ireland</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>ie_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>ie_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>ie_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="16">
+				<Name>Italy Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Italy</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>it_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>it_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>it_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="18">
+				<Name>Netherland Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Netherland</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>nl_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>nl_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>nl_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="20">
+				<Name>Norway Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Norway</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>no_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>no_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>no_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="22">
+				<Name>Poland Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Poland</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>pl_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>pl_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>pl_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="24">
 				<Name>Sweden Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
 					<Name>Enable Sovendus Sweden</Name>
@@ -253,7 +275,73 @@
 					<ValueName>se_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
-			<Settingslink sort="11">
+			<Settingslink sort="26">
+				<Name>Switzerland German Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Switzerland German</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>ch_de_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>ch_de_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>ch_de_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="28">
+				<Name>Switzerland French Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Switzerland French</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>ch_fr_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>ch_fr_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>ch_fr_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="30">
+				<Name>Switzerland Italy Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Switzerland Italy</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>ch_it_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>ch_it_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>ch_it_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="32">
 				<Name>Spain Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
 					<Name>Enable Sovendus Spain</Name>
@@ -275,12 +363,12 @@
 					<ValueName>es_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
-			<Settingslink sort="12">
-				<Name>Belgium Dutch Sovendus Settings</Name>
+			<Settingslink sort="34">
+				<Name>United Kingdom Sovendus Settings</Name>
 				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Belgium Dutch</Name>
+					<Name>Enable Sovendus United Kingdom</Name>
 					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>be_nl_sovendus_enabled</ValueName>
+					<ValueName>uk_sovendus_enabled</ValueName>
 					<RadioOptions>
 						<Option value="0" sort="1">Disabled</Option>
 						<Option value="1" sort="2">Enabled</Option>
@@ -289,56 +377,12 @@
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Source Number</Name>
 					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>be_nl_sovendus_traffic_source_number</ValueName>
+					<ValueName>uk_sovendus_traffic_source_number</ValueName>
 				</Setting>
 				<Setting type="text" initialValue="" sort="1" conf="Y">
 					<Name>Traffic Medium Number</Name>
 					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>be_nl_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="12">
-				<Name>Belgium French Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Belgium French</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>be_fr_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>be_fr_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>be_fr_sovendus_traffic_medium_number</ValueName>
-				</Setting>
-			</Settingslink>
-			<Settingslink sort="13">
-				<Name>Poland Sovendus Settings</Name>
-				<Setting type="radio" initialValue="0" sort="1" conf="Y">
-					<Name>Enable Sovendus Poland</Name>
-					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
-					<ValueName>pl_sovendus_enabled</ValueName>
-					<RadioOptions>
-						<Option value="0" sort="1">Disabled</Option>
-						<Option value="1" sort="2">Enabled</Option>
-					</RadioOptions>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Source Number</Name>
-					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
-					<ValueName>pl_sovendus_traffic_source_number</ValueName>
-				</Setting>
-				<Setting type="text" initialValue="" sort="1" conf="Y">
-					<Name>Traffic Medium Number</Name>
-					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
-					<ValueName>pl_sovendus_traffic_medium_number</ValueName>
+					<ValueName>uk_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
 		</Adminmenu>
