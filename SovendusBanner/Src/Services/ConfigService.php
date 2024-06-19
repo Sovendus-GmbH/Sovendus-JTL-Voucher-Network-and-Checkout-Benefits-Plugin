@@ -124,6 +124,16 @@ class ConfigService
                 $sovendusTrafficMediumNumber = $this->config->getValue("no_sovendus_traffic_medium_number");
                 $sovendusEnabled = $this->config->getValue("no_sovendus_enabled") === "1" && $sovendusTrafficSourceNumber && $sovendusTrafficMediumNumber;
                 break;
+            case "FI":
+                $sovendusTrafficSourceNumber = $this->config->getValue("fi_sovendus_traffic_source_number");
+                $sovendusTrafficMediumNumber = $this->config->getValue("fi_sovendus_traffic_medium_number");
+                $sovendusEnabled = $this->config->getValue("fi_sovendus_enabled") === "1" && $sovendusTrafficSourceNumber && $sovendusTrafficMediumNumber;
+                break;
+            case "PT":
+                $sovendusTrafficSourceNumber = $this->config->getValue("pt_sovendus_traffic_source_number");
+                $sovendusTrafficMediumNumber = $this->config->getValue("pt_sovendus_traffic_medium_number");
+                $sovendusEnabled = $this->config->getValue("pt_sovendus_enabled") === "1" && $sovendusTrafficSourceNumber && $sovendusTrafficMediumNumber;
+                break;
             default:
                 break;
         }

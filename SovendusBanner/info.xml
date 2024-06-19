@@ -385,6 +385,50 @@
 					<ValueName>uk_sovendus_traffic_medium_number</ValueName>
 				</Setting>
 			</Settingslink>
+			<Settingslink sort="36">
+				<Name>Finnland Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Finnland</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>fi_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>fi_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>fi_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
+			<Settingslink sort="38">
+				<Name>Portugal Sovendus Settings</Name>
+				<Setting type="radio" initialValue="0" sort="1" conf="Y">
+					<Name>Enable Sovendus Portugal</Name>
+					<Description>When enabled, Sovendus Banner will be visible on the chekcout success page</Description>
+					<ValueName>pt_sovendus_enabled</ValueName>
+					<RadioOptions>
+						<Option value="0" sort="1">Disabled</Option>
+						<Option value="1" sort="2">Enabled</Option>
+					</RadioOptions>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Source Number</Name>
+					<Description>Please enter your Traffic Source Number you have received in your integration documentation</Description>
+					<ValueName>pt_sovendus_traffic_source_number</ValueName>
+				</Setting>
+				<Setting type="text" initialValue="" sort="1" conf="Y">
+					<Name>Traffic Medium Number</Name>
+					<Description>Please enter your Traffic Medium Number you have received in your integration documentation</Description>
+					<ValueName>pt_sovendus_traffic_medium_number</ValueName>
+				</Setting>
+			</Settingslink>
 		</Adminmenu>
 	</Install>
 </jtlshopplugin>
