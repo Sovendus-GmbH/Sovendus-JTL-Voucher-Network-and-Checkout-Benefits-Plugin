@@ -1,0 +1,3 @@
+[submodule "SovendusBanner/sovendus-plugins-commons"]
+	path = SovendusBanner/sovendus-plugins-commons
+	url = https://github.com/Sovendus-GmbH/sovendus-plugins-commons
