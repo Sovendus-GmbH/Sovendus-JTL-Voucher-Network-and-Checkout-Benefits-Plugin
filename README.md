@@ -19,4 +19,5 @@ coming soon...
 
 1. In your JTL backend got to: Plugins -> Installed Plugins -> Sovendus Voucher Network & Checkout Benefits
 2. Enter the trafficSourceNumber and trafficMediumNumber and click on the enable radio button for each country, that you have received in your integration documentation.
+
   Once saved, the sovendus banner will be visible on the post checkout page.
